@@ -1,0 +1,24 @@
+{
+  "name": "belajar-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senoo12/belajar-rest-api-node-js.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "seno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senoo12/belajar-rest-api-node-js/issues"
+  },
+  "homepage": "https://github.com/senoo12/belajar-rest-api-node-js#readme"
+}
