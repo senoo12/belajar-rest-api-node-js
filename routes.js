@@ -11,4 +11,13 @@ module.exports = function(app){
 
     app.route('/biodata/:id')
         .get(jsonku.getDataBiodataById);
+
+    app.route('/add')
+        .post(jsonku.postDataBiodata);
+
+    app.route('/update')
+        .put(jsonku.putDataBiodata);
+    
+    app.route('/delete/:id')
+        .delete(jsonku.deleteDataBiodata);
 };
