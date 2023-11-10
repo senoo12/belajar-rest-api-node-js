@@ -5,4 +5,10 @@ module.exports = function(app){
 
     app.route('/')
         .get(jsonku.index);
+    
+    app.route('/biodata')
+        .get(jsonku.getDataBiodata);
+
+    app.route('/biodata/:id')
+        .get(jsonku.getDataBiodataById);
 };
